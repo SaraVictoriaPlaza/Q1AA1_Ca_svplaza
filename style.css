@@ -1,0 +1,133 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    position: relative;
+    background-image: url(images/me.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0px;
+    
+}
+.bannertop1{
+    border:1px solid black;
+    height:5vh;
+    background-color: rgb(231, 207, 155);
+    
+}
+.logo{
+    border-radius: 100px;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#links{
+    text-decoration: none;
+    font-family:cursive ;
+    color: black;
+    padding: 3px;
+    margin:3px;
+}
+.content{
+    border: 1px solid black;
+    height: 95vh;
+    display: inline;
+    position: relative;
+    top: 20vh;
+    font-size:x-large;
+    text-align:left;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+.container4{
+   padding-left: 100px;
+   
+}
+
+.text1{
+    color: rgb(88, 55, 55);
+}
+.text2{
+    color: yellowgreen;
+}
+.text3{
+    color: rgb(88,55,55);
+}
+
+.container4 a{
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: gray;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding:5px;
+}
+
+.bannerbottom1{background-color: rgb(231, 207, 155);
+    height: 5vh;
+    position: relative;
+    border: 1px solid black;
+    bottom: -64.5vh;
+}
+
+
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container5 a{
+    border-radius: 100px;
+}
+
+
+.bannertop2{
+    border:1px solid black;
+    height:5vh;
+    background-color: rgb(231, 207, 155);
+}
+
+.gallery{
+    position: relative;
+    Top:5vh;
+    font-size:large;
+    text-align:left;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.pics{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+
+.pic{
+    padding:5px;
+}
+
+.bannerbottom2{
+    background-color: rgb(231, 207, 155);
+    border: 1px solid black;
+    height: 20vh;
+    position: relative;
+    bottom: -39px;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto;
+   
+}
